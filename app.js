@@ -7,6 +7,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a,b){ //eslint-disable-line
+  var num1 = a;
 
 }
 
