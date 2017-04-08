@@ -97,10 +97,14 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(testArray){ //eslint-disable-line
-
+  var ans5a = multiply(testArray[0], testArray[1]);
+  var ans5b = multiply(ans5a[0], testArray[2]);
+  var a2sauce = [ ans5b, ('The numbers ' + testArray + ' have a product of ' + ans5b[0] + '.')];
+  console.log(a2sauce);
+  return (a2sauce)
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(2,3,4);
+testMultiplyArray(2,3,4);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
